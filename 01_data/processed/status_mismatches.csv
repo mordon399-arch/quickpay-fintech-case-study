@@ -1,0 +1,2 @@
+transaction_id,transaction_date,merchant_id,amount_usd,status_ledger,status_gateway,payment_method
+R005,2026-03-03,M004,7200.0,success,failed,Card

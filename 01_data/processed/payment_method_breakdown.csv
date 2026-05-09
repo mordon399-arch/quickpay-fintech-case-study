@@ -1,0 +1,5 @@
+payment_method,total_transactions,total_gmv,confirmed_gmv,success_count,failed_count,success_rate_pct
+Card,13,52972.0,34283.0,8,3,61.54
+NetBanking,3,15306.0,11709.0,2,1,66.67
+UPI,9,34397.5,28527.0,6,2,66.67
+Wallet,5,13404.5,7836.5,3,1,60.0
