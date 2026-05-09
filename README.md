@@ -22,29 +22,29 @@ This project is an end-to-end data analytics case study for QuickPay, a fintech 
 ├── README.md
 ├── 01_data/
 │   ├── raw/
-│   │   ├── transactions_raw.csv
-│   │   ├── merchant_master.csv
-│   │   ├── users.csv
-│   │   ├── ledger.csv
-│   │   ├── gateway.csv
+│   │   ├── api_response_sample.json
 │   │   ├── exchange_rates.csv
-│   │   └── api_response_sample.json
+│   │   ├── gateway.csv
+│   │   ├── ledger.csv
+│   │   ├── merchant_master.csv
+│   │   ├── transactions_raw.csv
+│   │   └── users.csv
 │   └── processed/
+│       ├── amount_mismatches.csv
+│       ├── api_normalized.csv
 │       ├── cleaned_transactions.csv
-│       ├── merchant_risk_summary.csv
+│       ├── daily_summary.csv
+│       ├── merchant_performance_summary.csv
+│       ├── merchant_risk_summary.csv 
 │       ├── missing_in_gateway.csv
 │       ├── missing_in_ledger.csv
-│       ├── amount_mismatches.csv
-│       ├── status_mismatches.csv
-│       ├── reconciliation_report.csv
-│       ├── api_normalized.csv
-│       ├── daily_summary.csv
 │       ├── payment_method_breakdown.csv
+│       ├── reconciliation_report.csv 
 │       ├── region_breakdown.csv
-│       └── merchant_performance_summary.csv
+│       └── status_mismatches.csv
 ├── 02_spreadsheet/
-│   ├── spreadsheet_workbook.xlsx
-│   └── spreadsheet_answers.md
+│   ├── spreadsheet_answers.md
+│   └── spreadsheet_workbook.xlsx
 ├── 03_sql/
 │   ├── analysis_queries.sql
 │   └── sql_answers.md
